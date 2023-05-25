@@ -54,6 +54,7 @@ main {
     margin-left: 98px;
     margin-top: 50px;
     padding-left: 20px;
+    padding-right: 20px;
     height: 500px;
 }
 .mensaje:focus{
@@ -86,6 +87,7 @@ main {
     width: 328px;
 }
 
+/*
 .copiar{
     background-color:#d9d5dc;
     border: 2px solid #0A3871;
@@ -94,11 +96,10 @@ main {
     font-size: 20px;
     cursor: pointer;
     height: 67px;
-    margin-left: 99px;
-    margin-top: 7px;
-    position: absolute;
+    margin-left: 108px;
     width: 328px;
 }
+*/
 
 .informacion{
     color: #0A3871;
