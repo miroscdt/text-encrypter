@@ -4,10 +4,13 @@ body {
     font-weight: 400;
     font-size: 32px;
     line-height: 150%;
+    justify-content: center;
+    align-items: center;
 }
 
 /* Logo */
 .logo {
+    border-radius: 5px;
     margin-left: 200px;
     padding-top: 50px;
     width: 5%;
@@ -87,7 +90,7 @@ main {
     width: 328px;
 }
 
-/*
+
 .copiar{
     background-color:#d9d5dc;
     border: 2px solid #0A3871;
@@ -99,7 +102,17 @@ main {
     margin-left: 108px;
     width: 328px;
 }
-*/
+
+#botonCopiar.clicked{
+    background-color: #0A3871;
+    border: 2px solid  #0A3871;
+    border-radius: 24px;
+    color: #ffffff;
+    font-size: 20px;
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+}
 
 .informacion{
     color: #0A3871;
